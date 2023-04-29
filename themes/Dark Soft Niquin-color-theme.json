@@ -319,6 +319,235 @@
 		},
 		// END JS
 
+
+
+		// C#		
+		{
+			"name": "Using",
+			"scope": [
+				"keyword.other.using.cs",
+				"keyword.other.namespace.cs",
+			],
+			"settings": {
+				"foreground": "#FC548E"//"#5898c2"//"#4EBEEF"//"#569CD6"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": [
+				"entity.name.type.class.cs",
+				"entity.name.type.cs",
+			],
+			"settings": {
+				"foreground": "#48b8a1"//"#6acbe9"//"#54b38e"//"#55b490"
+			}
+		},		
+		{
+			"name": "Function User",
+			"scope": [
+				"entity.name.function.cs",
+			],
+			"settings": {
+				"foreground": "#E0DB9B"//"#6ce0f5"//"#dbdba1"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"entity.name.variable.field.cs",
+			],
+			"settings": {
+				"foreground": "#EBA568"
+			}
+		},	
+		{
+			"name": "String JS",
+			"scope": [
+				"keyword.control.cshtml.transition",
+			],
+			"settings": {
+				"foreground": "#E0DB9B",
+			}
+		},		
+		{
+			"name": "Variables locales",
+			"scope": [
+				"entity.name.variable.local.cs",
+				"entity.name.variable.parameter.cs",
+				"variable.other.readwrite.cs",
+				"variable.other.object.cs",
+			],
+			"settings": {
+				"foreground": "#a5d0ec",
+			}
+		},		
+		{
+			"name": "Sections",
+			"scope": [
+				"keyword.preprocessor.region.cs",
+				"keyword.preprocessor.endregion.cs",
+				"punctuation.separator.hash.cs",
+				"string.unquoted.preprocessor.message.cs",
+			],
+			"settings": {
+				"foreground": "#868686"
+			}
+		},
+		{
+			"name": "Brackets",
+			"scope": [
+				"punctuation.curlybrace.open.cs",
+				"punctuation.curlybrace.close.cs",
+				"punctuation.parenthesis.open.cs",
+				"punctuation.parenthesis.close.cs",
+				"punctuation.squarebracket.open.cs",
+				"punctuation.squarebracket.close.cs",
+
+				"keyword.control.razor.directive.codeblock.open",
+				"keyword.control.razor.directive.codeblock.close",
+			],
+			"settings": {
+				"foreground": "#b9b9b9"
+			}
+		},
+		{
+			"name": "Operator and Access",
+			"scope": [
+				// "keyword.operator.comparison.cs",
+				// "keyword.operator.assignment.cs",
+				// "keyword.operator.relational.cs",
+				// "keyword.operator.arrow.cs",
+				"keyword.operator.conditional.question-mark.cs",
+				"punctuation.accessor.cs",				
+			],
+			"settings": {
+				"foreground": "#ff9898"//92c42f
+			}
+		},
+		// END C#
+
+
+
+		// START PYTHON
+		{
+			"name": "Parameters",
+			"scope": [
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
+				"punctuation.parenthesis.begin.python",
+				"punctuation.parenthesis.end.python",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python",
+			],
+			"settings": {
+				"foreground": "#b9b9b9"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.section.function.begin.python",
+				"punctuation.section.function.end.python",
+				"punctuation.separator.colon.python",
+				"punctuation.separator.period.python",
+			],
+			"settings": {
+				"foreground": "#ffa0a0"
+			}
+		},
+		{
+			"name": "Class and Constant",
+			"scope": [
+				"storage.type.class.python",
+				"constant.language.python",
+			],
+			"settings": {
+				"foreground": "#5898c2"//"#FC548E"
+			}
+		},
+		{
+			"name": "Class and Constant",
+			"scope": [
+				"storage.type.class.python",
+				"constant.language.python",
+			],
+			"settings": {
+				"foreground": "#5898c2"//"#FC548E"
+			}
+		},
+		{
+			"name": "Flow Control",
+			"scope": [
+				"keyword.control.flow.python",
+			],
+			"settings": {
+				"foreground": "#b581c7"//"#b581c7"
+			}
+		},
+		{
+			"name": "Name Class",
+			"scope": [
+				"entity.name.type.class.python",
+				"meta.function-call.generic.python",
+			],
+			"settings": {
+				"foreground": "#43AD98"//"#b581c7"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function.python",
+				"meta.function.python",
+			],
+			"settings": {
+				"foreground": "#E0DB9B"
+			}
+		},
+		{
+			"name": "Self",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#EBA568"//"#FC548E"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter.function.language.python",
+			],
+			"settings": {
+				"foreground": "#a5d0ec"
+			}
+		},
+		{
+			"name": "Function Type",
+			"scope": [
+				"support.type.python",
+				"storage.type.function.python",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FC548E"
+			}
+		},
+		{
+			"name": "Multi String",
+			"scope": [
+				"string.quoted.docstring.multi.python",
+			],
+			"settings": {
+				"foreground": "#797979"
+			}
+		},
+		// END PYTHON
+
 	],
 	
 	"semanticHighlighting": true,
