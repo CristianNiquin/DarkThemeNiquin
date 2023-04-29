@@ -155,6 +155,170 @@
 				"foreground": "#b5cea8"
 			}
 		},
+
+
+
+		// START HTML
+		{
+			"name": "Decorators HTML",
+			"scope": [
+				"punctuation.definition.tag.begin.html",	
+				"punctuation.definition.tag.end.html",
+
+				"meta.tag.structure.div.start.html",
+				"meta.tag.structure.div.end.html",				
+				"punctuation.separator.key-value.html",				
+				// "text.aspnetcorerazor",
+
+				"punctuation.definition.tag.xml",				
+			],
+			"settings": {
+				"foreground": "#AAA"
+			}
+		},
+		{
+			"name": "Attributes HTML",
+			"scope": [
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name",
+				
+				"keyword.control.cshtml.transition",
+			],
+			"settings": {
+				"foreground": "#43AD98"
+			}
+		},
+		{
+			"name": "Atributo Quote HTML",
+			"scope": [
+				"punctuation.definition.string.begin.html",	
+				"punctuation.definition.string.end.html",	
+				// "meta.tag.structure.div.start.html",
+				// "meta.tag.structure.div.end.html",
+
+				"string.quoted.double.xml",
+				"string.quoted.double.html",
+				"meta.attribute.class.html",
+				"meta.attribute.src.html",
+				"meta.tag.object.img.void.html",
+
+				"invalid.illegal.character-not-allowed-here.html",
+			],
+			"settings": {
+				"foreground": "#E0DB9B",
+			}
+		},
+		{
+			"name": "Atributo Quote HTML",
+			"scope": [	
+				"entity.name.tag.html",
+				"meta.tag.structure.div.start.html",
+				"meta.tag.structure.div.end.html",
+				"entity.name.tag.localname.xml",
+			],
+			"settings": {
+				"foreground": "#FC548E"
+			}
+		},
+		{
+			"name": "Constant HTML",
+			"scope": [
+				"punctuation.definition.entity.html",	
+				"constant.character.entity.named.nbsp.html",
+			],
+			"settings": {
+				"foreground": "#b581c7"
+			}
+		},
+		// END HTML
+
+
+
+		// START JS
+		{
+			"name": "Metadata",
+			"scope": [	
+				"meta.brace.round.js",	
+				"meta.brace.square.js",
+				"meta.definition.variable.js",
+				
+				"punctuation.definition.block.js",	
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js",
+			],
+			"settings": {
+				"foreground": "#b9b9b9"
+			}
+		},
+		{
+			"name": "Key Reserved",
+			"scope": [
+				"storage.modifier.async.js",
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Flow Control",
+			"scope": [
+				"keyword.control.conditional.js",
+				"keyword.control.flow.js",
+			],
+			"settings": {
+				"foreground": "#b581c7"
+			}
+		},
+		{
+			"name": "Types and Functions",
+			"scope": [
+				"storage.type.js",
+				"storage.type.function.js",
+
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.false.js",
+			],
+			"settings": {
+				"foreground": "#5898c2"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter.js",
+				"variable.other.object.js",	
+				"variable.other.constant.js",
+				"variable.other.readwrite.js",
+			],
+			"settings": {
+				"foreground": "#a9d2ee"//"#a4d1ee"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"storage.type.function.arrow.js",
+				"punctuation.accessor.js",	
+				"punctuation.separator.key-value.js",	
+			],
+			"settings": {
+				"foreground": "#ffa0a0"
+			}
+		},
+		{
+			"name": "String JS",
+			"scope": [
+				"string.quoted.single.js",
+				"string.quoted.double.js",
+				"punctuation.definition.string.begin.js",
+				"punctuation.definition.string.end.js",
+			],
+			"settings": {
+				"foreground": "#ffa0cf"//"#ffa0cf"
+			}
+		},
+		// END JS
+
 	],
 	
 	"semanticHighlighting": true,
