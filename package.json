@@ -1,0 +1,21 @@
+{
+  "name": "dark-soft-niquin",
+  "displayName": "Dark-Soft-Niquin",
+  "description": "Soft dark theme for programmers",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Soft Niquin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Soft Niquin-color-theme.json"
+      }
+    ]
+  }
+}
